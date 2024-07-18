@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+body{ font-family: "Inter", sans-serif;}
+
+/* shear style  */
+.display-flex{
+    display: flex;
+}
+.primary-bg{
+   background-color:rgb(17, 17, 17)
+}
+.text-gray{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* navbar style start  */
+#navbar-container{
+    max-width: 1440px;
+    background-color:rgb(17, 17, 17)
+    
+    
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    margin: 57px 190px;
+}
+.navbar-containt {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);;
+    border-radius: 39px;
+    justify-content: space-between;
+    
+    
+}
+
+.navbar-title{
+    font-size: 36px;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+}
+
+
+.navbar-containt a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);;
+    justify-items: left;
+    
+}
+.navbar-containt a span{
+    
+    background-color: rgb(230, 83, 60);;
+    
+    
+}
+
+
+
+
+/* navbar style end  */
+
+
+/* banner style start  */
+.banner-container{
+    justify-content: space-between;
+}
+.banner-title{
+    color:rgb(255, 255, 255);;
+    
+
+}
+.banner-description{
+
+}
+.banner-title, .inter{
+    font-size: 78px;
+    font-weight: 900;
+
+}
+.banner-text-contain{
+    margin-left: 190px;
+}
+.banner-img-cotaint{
+    margin-right: 214px;
+}
+
+
+
+
+/* banner style end  */
