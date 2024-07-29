@@ -105,6 +105,7 @@ body{
     display: flex;
     gap: 40px;
     justify-content: space-between;
+    margin-bottom: 100px;
 }
 .banner-title{
     color:rgb(255, 255, 255);;
@@ -211,6 +212,63 @@ button .free-workout{
 
 
 /* banner style end  */
+/* habit section start  */
+.habits{
+
+}
+.habit-container{
+    max-width: 1044px;
+    margin: 0 auto;
+    
+}
+.habit-text-cotain{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    
+}
+.habit-titel{
+font-size: 48px;
+font-weight: 900;
+
+}
+.habit-description{
+font-size: 14px;
+font-weight: 400;
+}
+.habit-img-container{
+    color:rgb(255, 255, 255) ;
+    margin-top: 54px;
+    text-align: center;
+    
+}
+.habit-img-container h3{
+font-size: 18px;
+font-weight: 600;
+
+
+}
+.habit-img-container p{
+font-size: 14px;
+font-weight: 400;
+}
+.habit-img img{
+    border-radius: 50%;
+    margin-bottom: 26px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* habit section end  */
 
 
 /* media quare for mobile  */
