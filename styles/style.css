@@ -218,7 +218,7 @@ button .free-workout{
 }
 .habit-container{
     max-width: 1044px;
-    margin: 0 auto;
+    margin: 100px auto;
     
 }
 .habit-text-cotain{
@@ -229,21 +229,25 @@ button .free-workout{
     
 }
 .habit-titel{
+color:rgb(255, 255, 255) ;
 font-size: 48px;
 font-weight: 900;
 
 }
 .habit-description{
+color: rgba(255, 255, 255, 0.5);
 font-size: 14px;
 font-weight: 400;
 }
 .habit-img-container{
-    color:rgb(255, 255, 255) ;
+    
     margin-top: 54px;
     text-align: center;
     
+    
 }
 .habit-img-container h3{
+    color:rgb(255, 255, 255) ;
 font-size: 18px;
 font-weight: 600;
 
@@ -252,6 +256,7 @@ font-weight: 600;
 .habit-img-container p{
 font-size: 14px;
 font-weight: 400;
+color: rgba(255, 255, 255, 0.5);
 }
 .habit-img img{
     border-radius: 50%;
@@ -259,16 +264,72 @@ font-weight: 400;
 }
 
 
-
-
-
-
-
-
-
-
-
 /* habit section end  */
+
+/* section run start  */
+
+.run{
+   }
+    
+.run-container{
+    max-width: 1060px;
+    height: 371px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    background-color: rgb(34, 34, 34);
+    margin-bottom: 100px;
+    border-radius: 18px;
+}
+
+.run-text-contain{
+    width: 443px;
+    text-align: center;
+    margin-top: 41px;
+    margin-left: 54px;
+    
+}
+.run-text-contain h2{
+    font-size: 48px;
+font-weight: 900;
+margin-bottom: 14px;
+color:rgb(255, 255, 255) ;
+
+
+}
+.run-text-contain p{
+    font-size: 14px;
+font-weight: 400;
+margin-bottom: 34px;
+color: rgba(255, 255, 255, 0.5);
+}
+.run-img-contain{
+    width:366px;
+    height:312px;
+    margin: 30px 32px 29px 165px;
+}
+.run-img-contain img{
+
+width: 100%;
+height: 100%;
+border-radius: 18px;
+
+}
+.run-btn{
+    font-size: 18px;
+font-weight: 600;
+width: 224px;
+height: 54px;
+padding: 16px 40px 16px 40px;
+background-color: rgb(230, 83, 60);
+border-radius: 42px;
+border: none;
+/* justify-content: center;
+align-items: center; */
+    
+}
+
+/* section run end  */
 
 
 /* media quare for mobile  */
@@ -299,7 +360,31 @@ font-weight: 400;
      .banner-img-cotaint{
         width: 100%;
     
+    }
+    .habits{
+        margin-top: 10px;
+        margin-bottom: 100px;
     } 
+    .habit-container{
+    padding-top: 0px;
+    }
+    .habit-text-cotain{
+        flex-direction: column;
+    }
+    .habit-img-container{
+        flex-direction: column;
+    }
+    .run-container{
+        flex-direction: column;
+        height: 100%;
+        
+    }
+    .run-img-contain{
+        margin: 31px auto;
+        
+    }
+    
+    
     
     
     }
