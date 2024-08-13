@@ -315,8 +315,8 @@ height: 100%;
 border-radius: 18px;
 
 }
-.run-btn{
-    font-size: 18px;
+.run-btn, .calculator-button{
+font-size: 18px;
 font-weight: 600;
 width: 224px;
 height: 54px;
@@ -324,18 +324,424 @@ padding: 16px 40px 16px 40px;
 background-color: rgb(230, 83, 60);
 border-radius: 42px;
 border: none;
-/* justify-content: center;
-align-items: center; */
+
     
 }
 
 /* section run end  */
 
+/* training section style start  */
+/* .training-section{
+width: 1060px;
+height: 581px;
+border: 1px solid tomato;
+margin: 0 auto;
+margin-bottom: 78px;
+}
 
+.training-text-contain{
+width: 671px;
+height: 120px;
+margin-bottom: 58px;
+
+}
+
+.training-text-contain h1{
+color: rgb(255, 255, 255);
+font-size: 48px;
+font-weight: 900;
+margin-bottom: 14px;
+}
+
+.training-text-contain p{
+color: rgba(255, 255, 255, 0.5);
+font-size: 14px;
+font-weight: 400;
+}
+
+.training-img-contain{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   grid-row-gap: 0px;
+    
+}
+
+
+.training-img-contain .exercise-1{
+/* position: absolute; */
+/* width: 323px;
+height: 218px;
+
+}
+.training-img-contain .exercise-2{
+
+width: 539px;
+height: 256px;
+
+}
+.training-img-contain .exercise-3{
+
+width: 388px;
+height: 214px;
+}
+.training-img-contain .exercise-4{
+width: 435px;
+height: 240px;
+}
+.training-img-contain .exercise-5{
+
+width: 408px;
+height: 219px;
+}
+.training-img-contain .exercise-6{
+
+width: 376px;
+height: 250px;
+}
+.training-img-contain img{
+    
+    width: 100%;
+    height: 100%;
+    gap: 0px;
+} */
+ 
+
+
+
+
+/* training section style end  */
+
+
+
+/* calculator section start  */
+.calculator{
+    
+    
+}
+.calculator-title{
+    max-width: 671px;
+    margin: 0 auto;
+}
+.calculator h2{
+    color: rgb(255, 255, 255);
+    margin-bottom: 14px;
+    font-size: 48px;
+    font-weight: 900;
+}
+.calculator p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+}
+.calculator-container{
+    background: rgba(255, 255, 255, 0.1);
+    max-width: 1440px;
+    margin: 88px auto;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.table-title{
+    margin-top: 52px;
+    margin-bottom: 52px;
+}
+table{
+    width: 310px;
+    height: 216px;
+    margin-bottom: 133px;
+}
+table, td{
+    text-align: center;
+}
+
+table, th, td, tr{
+   
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+}
+.table th{
+    color: rgb(255, 255, 255);    
+
+}
+.table td{
+    color: rgba(255, 255, 255, 0.5);
+}
+.table-title{
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900;
+}
+.input-section{
+    margin-top: 49px;
+    max-width: 577px;
+    /* height: 386px; */
+    /* margin-top: 49px; */
+    
+
+}
+.input-section h3{
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+.input-section p{
+    margin-bottom: 34px;
+}
+input{
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    width: 80%;
+    height: 48px;
+    padding: 12px 40px 12px 20px;
+    border-radius: 8px;
+    
+    
+}
+.input{
+   
+   display: grid; 
+   grid-template-columns: repeat(2, 1fr);
+   row-gap: 10px;
+   column-gap: 10px;
+   
+   
+}
+select{
+    
+    background: rgba(255, 255, 255, 0.1); 
+    color: rgba(255, 255, 255, 0.226);
+    border: none;
+    border-radius: 8px;
+}
+select .sexy{
+    
+    
+}
+select .factor{
+   width: 577px; 
+   height: 48px;
+    
+}
+
+
+button{
+    margin-top: 34px;
+
+}
+
+
+/* calculator section end  */
+
+/* met our team section start  */
+.team-container{
+    max-width: 1060px;
+    margin: 0 auto;
+    margin-bottom: 88px;
+
+}
+.team-text{
+    width: 671px;
+    margin: 0 auto;
+    text-align: center;
+    
+   
+}
+.team-text h2{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 14px;
+    
+}
+.team-text p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    
+}
+.team-img{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+    width: 100%;
+    margin-top: 58px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+    padding: 20px;
+    
+}
+.team-img h4{
+    color: rgb(255, 255, 255);   
+}
+.team-img p{
+    color: rgba(255, 255, 255, 0.5); 
+
+}
+
+
+
+.team-img-1{
+    
+
+    width: 100%;
+    height: 272px;
+    background-image: url(/images/trainer1.png);
+    background-size: cover;
+    
+    border-radius: 18px;
+}
+
+.team-img-2{
+    width: 100%;
+    height: 272px;
+    background-image: url(/images/trainer2.png);
+    background-size: cover;
+    
+    border-radius: 18px;
+}
+
+.team-img-3{
+    width: 100%;
+    height: 272px;
+    background-image: url(/images/trainer3.png);
+    background-size: cover;
+    
+    border-radius: 18px;
+}
+
+.team-img-4{
+    width: 100%;
+    height: 272px;
+    background-image: url(/images/trainer4.png);
+    background-size: cover;
+    
+    border-radius: 18px;
+}
+
+.team-img-5{
+    width: 100%;
+    height: 272px;
+    background-image: url(/images/trainer5.png);
+    background-size: cover;
+    
+    border-radius: 18px;
+}
+
+.team-img-6{
+    width: 100%;
+    height: 272px;
+    background-image: url(/images/trainer6.png);
+    background-size: cover;
+    
+    border-radius: 18px;
+}
+
+
+
+
+
+/* met our team section end  */
+
+/* footer section start  */
+.footer{
+max-width: 1440px;
+height: 489px;
+background: rgba(255, 255, 255, 0.1);
+}
+.footer-container{
+    max-width: 1059px;
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top:66px ;
+    padding-bottom: 79px;
+
+
+}
+.left{
+    width: 443px;
+    
+
+}
+.left h1{
+    
+    color: rgb(230, 83, 60);
+    font-size: 70px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.left p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+}
+.midel{
+    
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+}
+.midel h3{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+}
+.midel a{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 23px;
+    font-weight: 400;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+}
+.right h3{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+
+}
+.right a{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 23px;
+    font-weight: 400;
+       
+}
+.midel a{
+    text-decoration: none;
+}
+.right a{
+    text-decoration: none;
+}
+hr{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    
+    width: 1059px;
+    margin: 0 auto;
+}
+.reserved{
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 558px;
+    margin-top: 36px;
+}
+
+
+
+
+/* footer section end  */
 /* media quare for mobile  */
 @media  screen and (max-width:576px){
     .navbar{
-        margin: 0 20px;
+        margin: 0 auto;
+       
+        
     }
     .navbar-containt {
         display: none;
@@ -346,7 +752,11 @@ align-items: center; */
         
     }
     .banner-container{
+        width: 100%;
         flex-direction: column;
+        
+        
+        
         
     }
     .btn-1{
@@ -361,29 +771,100 @@ align-items: center; */
         width: 100%;
     
     }
-    .habits{
+    
+    .habit-container{
         margin-top: 10px;
         margin-bottom: 100px;
-    } 
-    .habit-container{
-    padding-top: 0px;
+        
+    
     }
     .habit-text-cotain{
         flex-direction: column;
     }
     .habit-img-container{
+        width: 100%;
         flex-direction: column;
     }
     .run-container{
+        width: 100%;
         flex-direction: column;
         height: 100%;
+        margin-left: 20px;
         
     }
     .run-img-contain{
         margin: 31px auto;
+    }
+    .calculator{
+        margin: 0 auto;
+    }
+    .calculator-title{
+        padding-left: 20px;
+    }
+
+
+    .calculator-container{
+        flex-direction: column;
+        width: 100%;
+       padding-left: 20px;
+       padding-right: 20px;
+       padding-bottom: 50px;
+       
+
+
+    }
+    .table{
+        margin-left: 20px;
         
     }
     
+    
+    .team-container{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .team-img{
+        margin: 0 auto;
+        
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+       
+        
+        
+    }
+    .team-text{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .footer-container{
+        flex-direction: column;
+        margin-top: 20px; 
+        width: 100%;
+       
+        
+        
+    }
+    .footer{
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        margin-top: 86px;
+    }
+    .midel{
+        flex-direction: column;
+        
+    }
+    .right{
+        flex-direction: column;
+
+    }
+    hr{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .reserved{
+        margin-left: 150px;
+    }
     
     
     
