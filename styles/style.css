@@ -330,87 +330,6 @@ border: none;
 
 /* section run end  */
 
-/* training section style start  */
-/* .training-section{
-width: 1060px;
-height: 581px;
-border: 1px solid tomato;
-margin: 0 auto;
-margin-bottom: 78px;
-}
-
-.training-text-contain{
-width: 671px;
-height: 120px;
-margin-bottom: 58px;
-
-}
-
-.training-text-contain h1{
-color: rgb(255, 255, 255);
-font-size: 48px;
-font-weight: 900;
-margin-bottom: 14px;
-}
-
-.training-text-contain p{
-color: rgba(255, 255, 255, 0.5);
-font-size: 14px;
-font-weight: 400;
-}
-
-.training-img-contain{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-   grid-row-gap: 0px;
-    
-}
-
-
-.training-img-contain .exercise-1{
-/* position: absolute; */
-/* width: 323px;
-height: 218px;
-
-}
-.training-img-contain .exercise-2{
-
-width: 539px;
-height: 256px;
-
-}
-.training-img-contain .exercise-3{
-
-width: 388px;
-height: 214px;
-}
-.training-img-contain .exercise-4{
-width: 435px;
-height: 240px;
-}
-.training-img-contain .exercise-5{
-
-width: 408px;
-height: 219px;
-}
-.training-img-contain .exercise-6{
-
-width: 376px;
-height: 250px;
-}
-.training-img-contain img{
-    
-    width: 100%;
-    height: 100%;
-    gap: 0px;
-} */
- 
-
-
-
-
-/* training section style end  */
-
 
 
 /* calculator section start  */
@@ -508,6 +427,11 @@ input{
    
    
 }
+.select2, .factor, option{
+    margin-top: 5px;
+    width: 577px;
+    height: 48px;
+}
 select{
     
     background: rgba(255, 255, 255, 0.1); 
@@ -515,15 +439,7 @@ select{
     border: none;
     border-radius: 8px;
 }
-select .sexy{
-    
-    
-}
-select .factor{
-   width: 577px; 
-   height: 48px;
-    
-}
+
 
 
 button{
@@ -541,25 +457,30 @@ button{
     margin-bottom: 88px;
 
 }
-.team-text{
+.team-title{
     width: 671px;
     margin: 0 auto;
     text-align: center;
     
    
 }
-.team-text h2{
+.team-title h2{
     color: rgb(255, 255, 255);
     font-size: 48px;
     font-weight: 900;
     margin-bottom: 14px;
     
 }
-.team-text p{
+.team-title p{
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     font-weight: 400;
     
+}
+.img-text{
+    position: absolute;
+    left: 20px;
+    top: 200px;
 }
 .team-img{
     background: rgba(255, 255, 255, 0.1);
@@ -590,6 +511,7 @@ button{
     height: 272px;
     background-image: url(/images/trainer1.png);
     background-size: cover;
+    position: relative;
     
     border-radius: 18px;
 }
@@ -599,7 +521,7 @@ button{
     height: 272px;
     background-image: url(/images/trainer2.png);
     background-size: cover;
-    
+    position: relative;
     border-radius: 18px;
 }
 
@@ -608,7 +530,7 @@ button{
     height: 272px;
     background-image: url(/images/trainer3.png);
     background-size: cover;
-    
+    position: relative;
     border-radius: 18px;
 }
 
@@ -617,7 +539,7 @@ button{
     height: 272px;
     background-image: url(/images/trainer4.png);
     background-size: cover;
-    
+    position: relative;
     border-radius: 18px;
 }
 
@@ -626,7 +548,7 @@ button{
     height: 272px;
     background-image: url(/images/trainer5.png);
     background-size: cover;
-    
+    position: relative;
     border-radius: 18px;
 }
 
@@ -635,15 +557,13 @@ button{
     height: 272px;
     background-image: url(/images/trainer6.png);
     background-size: cover;
-    
+    position: relative;
     border-radius: 18px;
 }
 
-
-
-
-
 /* met our team section end  */
+
+
 
 /* footer section start  */
 .footer{
@@ -738,10 +658,20 @@ hr{
 /* footer section end  */
 /* media quare for mobile  */
 @media  screen and (max-width:576px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
     .navbar{
-        margin: 0 auto;
+       width: 100%; 
+        
        
         
+    }
+    .primary-bg{
+        width: 100%;
+        background-size: cover;
+        padding-left: 45px;
     }
     .navbar-containt {
         display: none;
@@ -751,19 +681,17 @@ hr{
         font-size: 1.5rem;
         
     }
+    #banner{
+        width: 100%;
+        
+    }
     .banner-container{
         width: 100%;
         flex-direction: column;
         
         
-        
-        
-    }
-    .btn-1{
-
-        left: 40%;
-        
-    }
+        }
+    
     .banner-text-contain{
         width: 100%;
     }
@@ -775,8 +703,8 @@ hr{
     .habit-container{
         margin-top: 10px;
         margin-bottom: 100px;
+        padding-left: 45px;
         
-    
     }
     .habit-text-cotain{
         flex-direction: column;
@@ -789,17 +717,18 @@ hr{
         width: 100%;
         flex-direction: column;
         height: 100%;
-        margin-left: 20px;
+        margin-left: 25px;
+        
         
     }
     .run-img-contain{
         margin: 31px auto;
     }
     .calculator{
-        margin: 0 auto;
+        
     }
     .calculator-title{
-        padding-left: 20px;
+        
     }
 
 
@@ -832,14 +761,16 @@ hr{
         
         
     }
-    .team-text{
+    .team-title{
         width: 100%;
-        margin: 0 auto;
+        
     }
     .footer-container{
         flex-direction: column;
         margin-top: 20px; 
+        padding-left: 20px;
         width: 100%;
+        outline: none;
        
         
         
@@ -847,8 +778,10 @@ hr{
     .footer{
         width: 100%;
         height: 100%;
-        padding: 10px;
+        padding-left: 20pxp;
+        padding-right: 50px;
         margin-top: 86px;
+        outline: none;
     }
     .midel{
         flex-direction: column;
@@ -860,14 +793,17 @@ hr{
     }
     hr{
         width: 100%;
-        margin: 0 auto;
+        margin-left: 20px;
+        
+        
+        
     }
     .reserved{
-        margin-left: 150px;
-    }
     
-    
+    margin: 0 auto;
+    padding-left: 180px;
     
     }
 
     
+}
