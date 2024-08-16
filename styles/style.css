@@ -230,13 +230,13 @@ button .free-workout{
 }
 .habit-titel{
 color:rgb(255, 255, 255) ;
-font-size: 48px;
+font-size: 3rem;
 font-weight: 900;
 
 }
 .habit-description{
 color: rgba(255, 255, 255, 0.5);
-font-size: 14px;
+font-size: .875rem;
 font-weight: 400;
 }
 .habit-img-container{
@@ -248,13 +248,13 @@ font-weight: 400;
 }
 .habit-img-container h3{
     color:rgb(255, 255, 255) ;
-font-size: 18px;
+font-size: 1.125;
 font-weight: 600;
 
 
 }
 .habit-img-container p{
-font-size: 14px;
+font-size: .875rem;
 font-weight: 400;
 color: rgba(255, 255, 255, 0.5);
 }
@@ -290,7 +290,7 @@ color: rgba(255, 255, 255, 0.5);
     
 }
 .run-text-contain h2{
-    font-size: 48px;
+font-size: 3rem;
 font-weight: 900;
 margin-bottom: 14px;
 color:rgb(255, 255, 255) ;
@@ -298,7 +298,7 @@ color:rgb(255, 255, 255) ;
 
 }
 .run-text-contain p{
-    font-size: 14px;
+font-size: .875rem;
 font-weight: 400;
 margin-bottom: 34px;
 color: rgba(255, 255, 255, 0.5);
@@ -316,7 +316,7 @@ border-radius: 18px;
 
 }
 .run-btn, .calculator-button{
-font-size: 18px;
+font-size: 1.125rem;
 font-weight: 600;
 width: 224px;
 height: 54px;
@@ -344,12 +344,12 @@ border: none;
 .calculator h2{
     color: rgb(255, 255, 255);
     margin-bottom: 14px;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 900;
 }
 .calculator p{
     color: rgba(255, 255, 255, 0.5);
-    font-size: 14px;
+    font-size: .875rem;
     font-weight: 400;
 }
 .calculator-container{
@@ -388,7 +388,7 @@ table, th, td, tr{
 }
 .table-title{
     color: rgb(255, 255, 255);
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 900;
 }
 .input-section{
@@ -401,7 +401,7 @@ table, th, td, tr{
 }
 .input-section h3{
     color: rgb(255, 255, 255);
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 900;
     margin-bottom: 14px;
 }
@@ -466,14 +466,14 @@ button{
 }
 .team-title h2{
     color: rgb(255, 255, 255);
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 900;
     margin-bottom: 14px;
     
 }
 .team-title p{
     color: rgba(255, 255, 255, 0.5);
-    font-size: 14px;
+    font-size: .875rem;
     font-weight: 400;
     
 }
@@ -590,13 +590,13 @@ background: rgba(255, 255, 255, 0.1);
 .left h1{
     
     color: rgb(230, 83, 60);
-    font-size: 70px;
+    font-size: 4.375rem;
     font-weight: 800;
     margin-bottom: 20px;
 }
 .left p{
     color: rgba(255, 255, 255, 0.5);
-    font-size: 14px;
+    font-size: .875rem;
     font-weight: 400;
 }
 .midel{
@@ -608,12 +608,12 @@ background: rgba(255, 255, 255, 0.1);
 }
 .midel h3{
     color: rgb(255, 255, 255);
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 700;
 }
 .midel a{
     color: rgba(255, 255, 255, 0.5);
-    font-size: 23px;
+    font-size: 1.4375rem;
     font-weight: 400;
 }
 .right{
@@ -624,13 +624,13 @@ background: rgba(255, 255, 255, 0.1);
 }
 .right h3{
     color: rgb(255, 255, 255);
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 700;
 
 }
 .right a{
     color: rgba(255, 255, 255, 0.5);
-    font-size: 23px;
+    font-size: 1.4375rem;
     font-weight: 400;
        
 }
@@ -691,6 +691,12 @@ hr{
         
         
         }
+        .banner-title{
+            font-size: 2.5rem;
+        }
+        .miama{
+            font-size: 6rem;
+        }
     
     .banner-text-contain{
         width: 100%;
@@ -699,6 +705,9 @@ hr{
         width: 100%;
     
     }
+    .button .five-hundred{
+        font-size: 1rem;
+    }
     
     .habit-container{
         margin-top: 10px;
@@ -706,12 +715,24 @@ hr{
         padding-left: 45px;
         
     }
+    .habit-titel{
+        font-size: 1.5rem;
+    }
+    .habit-description{
+        font-size: .5rem;
+    }
     .habit-text-cotain{
         flex-direction: column;
     }
     .habit-img-container{
         width: 100%;
         flex-direction: column;
+    }
+    .habit-img-container h3{
+        font-size: .8rem;
+    }
+    .habit-img-container p{
+        font-size: .4rem;
     }
     .run-container{
         width: 100%;
@@ -723,9 +744,30 @@ hr{
     }
     .run-img-contain{
         margin: 31px auto;
+        width: 250px;
+        
+    }
+    .run-text-contain{
+        width: 250px;
+        margin: 0 auto;
+    }
+    .run-text-contain h2{
+        font-size: 1.5rem;
+    }
+    .run-text-contain p{
+        font-size: .4rem;
+    }
+    .run-btn{
+        font-size: .5rem;
     }
     .calculator{
         
+    }
+    .calculator h2{
+        font-size: 1.5rem;
+    }
+    .calculator p{
+        font-size: .5rem;
     }
     .calculator-title{
         
@@ -735,22 +777,37 @@ hr{
     .calculator-container{
         flex-direction: column;
         width: 100%;
-       padding-left: 20px;
-       padding-right: 20px;
+       padding-left: 25px;
+       padding-right: 25px;
        padding-bottom: 50px;
        
 
 
     }
+    .select2, .factor, option{
+        width: 100%;
+    }
+    .select2, .sexy, option{
+        width: 100%;
+
+    }
+    .input{
+        width: 98%;
+        column-gap: 40px;
+    }
     .table{
         margin-left: 20px;
         
+    }
+    .table-title{
+        font-size: .9rem;
     }
     
     
     .team-container{
         width: 100%;
         margin: 0 auto;
+        padding-left: 5px;
     }
     .team-img{
         margin: 0 auto;
@@ -764,6 +821,13 @@ hr{
     .team-title{
         width: 100%;
         
+        
+    }
+    .team-title h2{
+        font-size: 1.5rem;
+    }
+    .team-title p{
+        font-size: .6rem;
     }
     .footer-container{
         flex-direction: column;
@@ -782,6 +846,15 @@ hr{
         padding-right: 50px;
         margin-top: 86px;
         outline: none;
+    }
+    .left{
+        width: 100%;
+    }
+    .left h1{
+        font-size: 2.5rem;
+    }
+    .left p{
+        font-size: .6rem;
     }
     .midel{
         flex-direction: column;
